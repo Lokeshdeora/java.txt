@@ -1,0 +1,196 @@
+1---->100 
+//
+public class While{
+    public static void main(String[]args){
+        int i=1;
+        while(i<=100){
+        System.out.print(i);
+        i++;
+        }
+    }
+}
+//
+123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100
+--------------------------------
+100--->1 
+//
+public class While{
+    public static void main(String[]args){
+        int i=100;
+        while(i>=1){
+        System.out.print(i);
+        i--;
+        }
+    }
+}
+//
+100999897969594939291908988878685848382818079787776757473727170696867666564636261605958575655545352515049484746454443424140393837363534333231302928272625242322212019181716151413121110987654321
+//
+-------------------------------------
+1---->100 even numbers print
+//
+public class While{
+    public static void main(String[]args){
+        int i=2;
+        while(i <= 100){
+        System.out.print(i);
+        i+=  2;
+        }
+    }
+}
+//
+2468101214161820222426283032343638404244464850525456586062646668707274767880828486889092949698100
+--------------------------------------
+---------------------------
+100--->1 even number
+//
+public class While{
+    public static void main(String[]args){
+        int i=100;
+        while(i >= 2){
+        System.out.print(i);
+        i-=  2;
+        }
+    }
+}
+//
+1009896949290888684828078767472706866646260585654525048464442403836343230282624222018161412108642
+----------------------------------------
+1---->100 odd numbers 
+//
+public class While{
+    public static void main(String[]args){
+        int i=1;
+        while(i <= 100){
+        System.out.print(i);
+        i+= 2;
+        }
+    }
+}
+//
+13579111315171921232527293133353739414345474951535557596163656769717375777981838587899193959799
+-----------------------------------------
+50---->500 number print 
+///
+public class While{
+    public static void main(String[]args){
+        //50---->500 number print 
+        int i=50;
+        while(i <= 100){
+        System.out.print(i);
+        i++;
+        }
+    }
+}
+//
+5051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100
+--------------------------------------------
+50--->1000 even number 
+//
+public class While{
+    public static void main(String[]args){
+        //50---->500 even number print 
+        int i=50;
+        while(i <= 100){
+        System.out.print(i);
+        i+=2;
+        }
+    }
+}
+//
+50525456586062646668707274767880828486889092949698100
+------------------------------------------------
+34-----67
+//
+public class While{
+    public static void main(String[]args){
+        //34-----67
+        int i=34;
+        while(i <= 67){
+        System.out.print(i);
+        i++;
+        }
+    }
+}
+//
+34353637383940414243444546474849505152535455565758596061626364656667
+-----------------------------------------------
+1--->10 sum (addition) 
+//
+public class While{
+    public static void main(String[]args){
+        //1--->10 sum (addition) 
+        int i=1;
+        int sum=0;
+        while(i <= 10){
+        sum+=i;
+        i++;
+        }
+           
+        System.out.print("1to10 total sum="+sum);
+        
+        
+    }
+}
+//
+1to10 total sum=55
+---------------------------------
+2 table print
+//
+public class While{
+    public static void main(String[]args){
+        //1--->10 sum (addition) 
+        int num=2;
+        int i=1;
+       while(i <= 10){
+        System.out.println((num*i));
+        i++;
+       }
+    }
+}
+//
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+--------------------------------------
+constant : 
+2 X 1 =2 
+///
+public class While{
+    public static void main(String[]args){
+        //1--->10 sum (addition) 
+        int num=2;
+        int i=1;
+       while(i == 1){
+        System.out.println(num + " x " + i + " = " + (num * i));
+        i++;
+       }
+    }
+}
+\\
+constant : 
+2 X 1 =2 
+----------------------------------------
+9 X 1 = 9 
+public class While{
+    public static void main(String[]args){
+        //1--->10 sum (addition) 
+        int num=9;
+        int i=1;
+       while(i == 1){
+        System.out.println(num + " x " + i + " = " + (num * i));
+        i++;
+       }
+    }
+}
+//
+9 X 1 = 9 
+-----------------------------------------
+
